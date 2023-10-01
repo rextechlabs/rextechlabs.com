@@ -1,2 +1,1 @@
-# REXTECH Labs
 Hello, world!
