@@ -1,0 +1,23 @@
+---
+---
+.hero {
+    align-items: center;
+    justify-content: center;
+}
+
+.animation-container {
+    font-size: 2em;
+    text-align: center;
+}
+
+.cursor {
+    font-weight: bold;
+    display: inline-block;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
