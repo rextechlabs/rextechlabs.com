@@ -1,4 +1,4 @@
-const phrases = ["Real-time Artificial Threat Observation Response", "RAPTOR", "Announcements comming soon..."];
+const phrases = ["Real-time Artificial Proactive Threat Observation Response", "RAPTOR", "Announcements comming soon..."];
 let currentPhraseIndex = 0;
 let currentCharIndex = 0;
 let isDeleting = false;
