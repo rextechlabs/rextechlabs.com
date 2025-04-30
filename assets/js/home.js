@@ -1,11 +1,11 @@
-const phrases = ["Proactive Real-time Electronic Defense And Threat Observation Response", "PREDATOR", "More info coming soon..."];
+const phrases = ["Real-time Artificial Threat Observation Response", "RAPTOR", "Announcements comming soon..."];
 let currentPhraseIndex = 0;
 let currentCharIndex = 0;
 let isDeleting = false;
-const typingSpeed = 65; // Speed when typing
-const deletingSpeed = 25; // Speed when deleting
+const typingSpeed = 75; // Speed when typing
+const deletingSpeed = 45; // Speed when deleting
 const delayAfterPhrase = 1750; // Delay after finishing a phrase
-const delayAfterDeleting = 750; // Delay after deleting before starting next phrase
+const delayAfterDeleting = 550; // Delay after deleting before starting next phrase
 const animatedText = document.getElementById('animatedText');
 
 function type() {
